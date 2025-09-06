@@ -1,0 +1,28 @@
+public class AreaPerimeter {
+    public static void main(String[] args) {
+        
+        // Circle
+        double radius = 5;
+        double circleArea = Math.PI * radius * radius;
+        double circlePerimeter = 2 * Math.PI * radius;
+
+        System.out.println("Circle:");
+        System.out.println("Radius = " + radius);
+        System.out.println("Area = " + circleArea);
+        System.out.println("Perimeter = " + circlePerimeter);
+
+        System.out.println();
+
+        // Rectangle
+        double length = 6;
+        double width = 10;
+        double rectArea = length * width;
+        double rectPerimeter = 2 * (length + width);
+
+        System.out.println("Rectangle:");
+        System.out.println("Length = " + length);
+        System.out.println("Width = " + width);
+        System.out.println("Area = " + rectArea);
+        System.out.println("Perimeter = " + rectPerimeter);
+    }
+}
